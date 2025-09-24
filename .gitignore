@@ -27,3 +27,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+#.idea
+.idea/
+p2_process_services.iml
+
