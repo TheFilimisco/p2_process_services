@@ -3,7 +3,7 @@ package exercise10_2;
 import java.io.*;
 import java.util.Scanner;
 
-public class Reader {
+public class Reader_2 {
     public static void main(String[] args) throws InterruptedException, IOException {
         Scanner sc = new Scanner(System.in);
         System.out.println("Starting Reader...");

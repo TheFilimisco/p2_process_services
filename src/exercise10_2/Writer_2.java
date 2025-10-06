@@ -1,9 +1,8 @@
 package exercise10_2;
 
-import java.io.OutputStream;
 import java.util.Scanner;
 
-public class Writer {
+public class Writer_2 {
 
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Starting Writer...");
