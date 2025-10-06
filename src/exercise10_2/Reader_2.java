@@ -7,7 +7,7 @@ public class Reader_2 {
     public static void main(String[] args) throws InterruptedException, IOException {
         Scanner sc = new Scanner(System.in);
         System.out.println("Starting Reader...");
-        ProcessBuilder pb = new ProcessBuilder("C:\\Users\\nyste\\.jdks\\corretto-21.0.6\\bin\\java.exe", "-classpath","C:\\Users\\nyste\\OneDrive\\Escritorio\\CFGSDAM2\\0490\\p2_process_services\\out\\production\\p2_process_services", "exercise10_2.Writer");
+        ProcessBuilder pb = new ProcessBuilder("C:\\Users\\nyste\\.jdks\\corretto-21.0.6\\bin\\java.exe", "-classpath","C:\\Users\\nyste\\OneDrive\\Escritorio\\CFGSDAM2\\0490\\p2_process_services\\out\\production\\p2_process_services", "exercise10_2.Writer_2");
 
         Process process = pb.start();
 
@@ -26,8 +26,6 @@ public class Reader_2 {
                 System.out.println("Writer said: " + line);
             }
         }
-
         process.waitFor();
     }
-
 }
